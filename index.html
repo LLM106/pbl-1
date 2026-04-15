@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PBL Web Report | 요약 페이지</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="landing">
+    <header class="hero card">
+      <p class="eyebrow">PBL Web Report</p>
+      <h1>현대 영어에서의 고전 복수형과 규칙 복수형의 경쟁 메커니즘</h1>
+      <p class="subhead">Google Ngram과 COCA 데이터를 중심으로 한 조별 연구 보고서의 웹용 요약 페이지</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="report.html">전체 보고서 보기</a>
+        <a class="btn" href="report.html#conclusion">결론 바로 보기</a>
+      </div>
+    </header>
+
+    <section class="grid two">
+      <article class="card">
+        <h2>이 연구가 보는 것</h2>
+        <p>라틴·그리스어 파생 명사의 복수형 변화는 단순히 규칙형이 고전형을 밀어내는 직선적 과정이 아니라는 점을 밝히는 연구다. 보고서는 각 표본을 현재 사용 상태, 변화의 속도·방향, 작동 메커니즘의 세 층위로 분석한다.</p>
+      </article>
+      <article class="card">
+        <h2>표본과 분류</h2>
+        <p>총 11개 명사쌍을 대상으로 분석했으며, 현재 상태 기준으로 규칙형 우세 2쌍, 고전형 우세 6쌍, 공존 3쌍으로 분류한다.</p>
+        <ul class="compact-list">
+          <li>규칙형 우세: <strong>formulas/formulae</strong>, <strong>antennas/antennae</strong></li>
+          <li>고전형 우세: criteria, curricula, cacti, matrices, premia, syllabi</li>
+          <li>공존: referendums, aquaria, indexes/indices</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>핵심 결론</h2>
+      <div class="grid three mini-cards">
+        <div>
+          <h3>규칙형 확대</h3>
+          <p>대중적·실용적 맥락에서 이미 강한 기반을 확보한 규칙형은 2040년까지 우세를 더 강화할 가능성이 높다.</p>
+        </div>
+        <div>
+          <h3>고전형 선택적 유지</h3>
+          <p>학술적·전문적 공동체 안에서 중심 형태로 기능하는 고전형은 단기간에 사라지기보다 현재 위상을 유지할 가능성이 크다.</p>
+        </div>
+        <div>
+          <h3>기능적 공존</h3>
+          <p>의미 분화나 register 분화가 형성된 표본은 한쪽의 소멸보다 역할 분담을 유지하는 방향으로 공존할 가능성이 높다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <h2>대표 사례</h2>
+        <div class="case-list">
+          <div class="case-item"><strong>formulas / formulae</strong><span>규칙형 우세 + register 분화</span></div>
+          <div class="case-item"><strong>antennas / antennae</strong><span>규칙형 우세 + 의미 분화</span></div>
+          <div class="case-item"><strong>criteria / criterions</strong><span>고전형 우세 + 빠른 수렴</span></div>
+          <div class="case-item"><strong>indexes / indices</strong><span>공존 + 기능 분담</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <h2>이 패키지 구성</h2>
+        <ul class="compact-list">
+          <li><strong>index.html</strong> — 요약 페이지</li>
+          <li><strong>report.html</strong> — 전체 본문</li>
+          <li><strong>assets/styles.css</strong> — 공통 스타일</li>
+          <li><strong>media/</strong> — DOCX에서 추출한 이미지 파일</li>
+        </ul>
+        <p class="muted">즉, 예전처럼 40MB짜리 단일 HTML 하나를 올리는 대신, 텍스트·스타일·이미지를 분리해 GitHub 업로드와 수정이 쉬운 구조로 정리한 버전이다.</p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>업로드 순서</h2>
+      <ol class="steps">
+        <li>새 GitHub repository를 만든다.</li>
+        <li>이 패키지 안의 파일과 폴더를 그대로 업로드한다.</li>
+        <li><strong>Settings → Pages</strong>에서 <strong>main / root</strong>를 선택한다.</li>
+        <li>조금 기다린 뒤 생성된 주소로 접속한다.</li>
+      </ol>
+      <p class="muted">파일명은 이미 <code>index.html</code>로 맞춰 두었으니, 따로 이름을 바꿀 필요가 없다.</p>
+    </section>
+  </div>
+</body>
+</html>
